@@ -1,0 +1,12 @@
+sources:
+  - name: Beta List
+    url: https://betalist.com/startups/authenticator
+    img: https://twemoji.maxcdn.com/v/13.1.0/72x72/1f170.png
+
+  - name: Hacker News
+    url: https://news.ycombinator.com/item?id=26446679
+    img: https://twemoji.maxcdn.com/v/13.1.0/72x72/1f171.png
+
+  - name: Apple Sfera
+    url: https://www.applesfera.com/analisis/authenticator-2stable-mejores-apps-para-gestionar-nuestros-codigos-doble-factor-app-semana
+    img: https://twemoji.maxcdn.com/v/13.1.0/72x72/1f17e.png
