@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    {%- include head-elements.html -%}
   </head>
-  <body class="d-flex h-100">
+  <body class="d-flex h-100 bg-light">
     <div class="d-flex w-100 h-100 mx-auto flex-column">
-
-      {% include _includes/nav.html %}
-
-        <div class="p-2">{{ content }}</div>
-
+      <div class="mb-auto">
+        {%- include nav-bar.html -%}
+      </div>
+      <div>
+        {{ content }}
+      </div>
+      <div class="mt-auto">
+        {%- include footer.html -%}
+      </div>
     </div>
+    {%- include bootstrap-js.html -%}
   </body>
 </html>
