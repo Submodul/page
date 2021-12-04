@@ -1,0 +1,14 @@
+.rounded-img {
+  border-radius: 0.66rem;
+}
+
+.rounded-cell {
+  border-radius: 0.5rem;
+}
+
+.cell:hover {
+  background-color: rgba(0,0,0,.015);
+  /* border: 1px solid #0d6efd!important; */
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  transition: background-color .1s ease-in-out,box-shadow .2s ease-in-out,border-color .25s ease-in-out,transform .25s ease-in-out,color .25s ease-in-out !important;
+}
