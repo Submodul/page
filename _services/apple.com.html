@@ -1,0 +1,12 @@
+---
+layout: main
+title: Services
+description: Description here
+permalink: /apple.com/
+ser: applecom
+---
+<div class="container">
+  {% include service.html %}
+  {% assign author = site.data.services[page.ser][0] %}
+  {{author.name}}
+</div>
