@@ -1,4 +1,4 @@
-{% assign author = site.data.services{[page.ser]}[0] %}<br>
-  name-> {{ author.name }}<br>
-  url-> {{ author.url }}<br>
-  img-> {{ author.img }}<br>
+{% assign author = site.data.services{[page.ser]}[0] %}
+<img width="50" src="/assets/img/logo/{{ author.img }}" alt="{{ author.name }} {{ author.url }}">
+<a href="https://{{ author.url }}">{{ author.url }}</a>
+<h1>{{ author.name }}</h1>
