@@ -1,0 +1,19 @@
+{
+  "name": "fix",
+  "version": "1.0.0",
+  "description": "fix",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload",
+    "update submodul": "cd shared && git add . -A && git commit -a -m \"update\" && git push",
+    "release": "rm -rf _site && bundle exec jekyll build && gulp && cd _site && git init && git remote add origin git@github.com:2stable/qrcode.2stable.com.git && git add . -A && git commit -a -m \"update\" && git push origin master --force && cd .. && rm -rf _site"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-minify-selectors": "^1.1.0",
+    "gulp-v3": "^3.12.1"
+  }
+}

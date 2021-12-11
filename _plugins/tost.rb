@@ -1,13 +1,3 @@
-# some_file = "text.txt"
-# if File.exist?(some_file)
-#     File.open(some_file).each do |line|
-#         if line.include?('a')
-#             puts "line: #{line}"
-#         end
-#     end
-# end
-
-
 Dir.foreach("../_data/services/") do |filename|
   file_extension = File.extname(filename)
   if file_extension == ".yml"
