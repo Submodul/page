@@ -30,3 +30,13 @@
   background-color: #7952b3;
   border-color: #7952b3;
 }
+
+.bd-footer {
+  font-weight: 600;
+  color: #495057;
+}
+
+.bd-nav {
+  /* font-weight: 600; */
+  color: #495057;
+}
