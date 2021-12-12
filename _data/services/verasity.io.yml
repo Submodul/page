@@ -1,0 +1,5 @@
+- name: Verasity
+  url: verasity.io
+  img: verasity.io.svg
+  2fa: https://help.veracode.com/r/t_configure_mfa
+  tags: finance,
