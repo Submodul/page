@@ -1,0 +1,4 @@
+- name: Facebook
+  url: facebook.com
+  img: facebook.com.png
+  2fa: https://www.facebook.com/help/148233965247823

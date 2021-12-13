@@ -1,3 +1,4 @@
 - name: Apple
   url: apple.com
-  img: apple.com.png
+  img: apple.com.svg
+  2fa: null
