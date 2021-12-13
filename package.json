@@ -4,7 +4,8 @@
   "description": "fix",
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
-    "tost": "rm -rf _services/ && mkdir _services && ruby tost.rb",
+    "yml": "ruby yml.rb",
+    "tost": "rm -rf _data/services && mkdir _data/services && rm -rf _services && mkdir _services && ruby tost.rb",
     "git": "git add . -A && git commit -a -m \"update\" && git push"
   },
   "author": "",
