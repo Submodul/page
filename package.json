@@ -6,7 +6,8 @@
     "dev": "bundle exec jekyll serve --livereload",
     "yml": "ruby yml.rb",
     "svg-png": "ruby svg-png.rb",
-    "tost": "rm -rf _data/services && mkdir _data/services && rm -rf _services && mkdir _services && ruby tost.rb",
+    "tost": "ruby tost.rb",
+    "realease": "ruby yml.rb && ruby tost.rb && ruby svg-png.rb",
     "git": "git add . -A && git commit -a -m \"update\" && git push"
   },
   "author": "",

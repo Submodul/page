@@ -4,8 +4,8 @@ title: Main Page
 description: Description here
 ---
 <div class="container">
-        <ul class="row list-unstyled">{% for service in site.data.services %}{% for site in service[1] %}
-            <li class="col-6 col-sm-4 col-lg-3 col-xl-2 mb-4">
+        <ul class="row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">{% for service in site.data.services %}{% for site in service[1] %}
+            <!-- <li class="col-6 col-sm-4 col-lg-3 col-xl-2 mb-4">
               <a class="d-block text-dark text-decoration-none" href="{{site.url}}">
                 <div class="p-3 rounded-cell border d-flex gap-2 cell">
                   <img class="rounded-img" src="/assets/img/logo/{{site.url}}/{{site.url}}.svg" width="48" height="48" alt="{{site.name}} logo">
@@ -15,6 +15,15 @@ description: Description here
                   </div>
                 </div>
               </a>
-            </li>{% endfor %}{% endfor %}
+            </li> -->
+            <li class="col mb-4" data-tags="shopping checkout check cart basket bag" data-categories="brand">
+              <a class="d-block text-dark text-decoration-none" href="{{site.url}}">
+              <div class="p-3 py-4 mb-2 border text-center rounded">
+                <img class="" src="/assets/img/logo/{{site.url}}/{{site.url}}.svg" width="60" height="60" alt="{{site.name}} logo">
+              </div>
+              <div class="name text-muted text-center pt-1">{{site.name}}</div>
+              </a>
+              </li>
+            {% endfor %}{% endfor %}
         </ul>
       </div>
